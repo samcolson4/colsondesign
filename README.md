@@ -3,4 +3,6 @@
 
 [colsondesign.com](http://www.colsondesign.com)
 
-This website is not yet ready to be public, but will be built using Ruby on rails.
+This website is not yet public and for now just re-directs to my github page. 
+
+It is being built using [Ruby on Rails](https://rubyonrails.org) 
