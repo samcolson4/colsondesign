@@ -1,11 +1,8 @@
 <h2 class="Header_2">blog</h2>
-<%= link_to 'New article', new_article_path %>
-<br>
-<br>
 <table>
   <tr>
-    <th>Title</th>
-    <th>Body</th>
+    <th><h3>article</h3></th>
+    <th><h3>text</h3></th>
     <th></th>
   </tr>
 
@@ -13,11 +10,7 @@
     <tr>
       <td><%= article.title %></td>
       <td><%= article.text %></td>
-      <td><%= link_to 'Show', article_path(article) %></td>
-      <td><%= link_to 'Edit', edit_article_path(article) %></td>
-      <td><%= link_to 'Delete', article_path(article),
-              method: :delete,
-              data: { confirm: 'Are you sure?' } %></td>
+      <td><%= link_to 'name', article_path(article) %></td>
     </tr>
   <% end %>
 </table>
