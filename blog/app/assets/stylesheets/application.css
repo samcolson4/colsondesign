@@ -13,3 +13,90 @@
  *= require_tree .
  *= require_self
  */
+ body {
+        /* background-color: white; */
+        color: black;
+        opacity: 50;
+        font-family: 'Old Standard TT', serif;
+        font-size: 14pt;
+      }
+
+#title {
+        font-size: 36pt;
+      }
+
+.top_nav {
+  background-color: #f15a24;
+  color: #f15a24;
+  padding: 0.6em 3em 0.6em 3em;
+}
+
+.top_nav a {
+  background-color: #f15a24;
+  color: white;
+  text-decoration: none;
+  font-size: 16pt;
+  padding: 0em 1em;
+  text-align: left;
+  }
+
+.top_nav a:hover {
+  color: white;
+  font-style: italic;
+}
+
+.top_nav a.active {
+  background-color: #f15a24;
+  color: white;
+}
+
+.main_body {
+  margin-left: 14em; /* Same width as the sidebar + left position in px */
+  margin-right: 8em;
+  max-width: 40em;
+  margin: auto;
+  }
+
+.footer {
+  margin-left: auto;
+  padding: 3em, 10em;
+  font-size: 10pt;
+  font-family:
+}
+
+.site_header {
+  margin-left: 0.3em;
+  margin-bottom: 0.3em;
+  font-size: auto;
+  font-family: 'Old Standard TT', serif;
+  text-decoration: none;
+  color: black;
+}
+
+.site_header :hover {
+  font-style: italic;
+  text-decoration: none;
+}
+
+.site_header :visited {
+  color: black;
+  text-decoration: none;
+  }
+
+.site_header :active {
+  color: black;
+  text-decoration: none;
+    }
+
+.Header_2 {
+  margin-left: -1.5em;
+}
+
+.Header_4 {
+  margin-left: -1.5em;
+}
+
+/* f15a24 ORANGE */
+/* 00a74a GREEN */
+/* 004AA7 BLUE */
+/*

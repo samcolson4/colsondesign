@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog</title>
+    <title>Colson Design</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,10 +10,22 @@
   </head>
 
   <body>
-    <ul class="nav navbar-nav">
-         <li class="active"><a href="#">HOME</a></li>
-         <li><%= link_to "BLOG", controller: 'articles' %></li>
-    </ul>
+    <h1 class="site_header"><%= link_to "colsondesign.com", controller: 'welcome' %></h1>
+
+    <div class="top_nav">
+    <a><%= link_to "home", controller: 'welcome' %></a>
+    <a><%= link_to "blog", controller: 'articles' %></a>
+    </div>
+
+    <div class="main_body">
     <%= yield %>
+    </div>
   </body>
+
+  <footer class="footer">
+    <br>
+    <hr>
+    <p>© Sam Colson 2020 | <a href="https://github.com/samcolson4">GitHub</a> | <a href ="https://github.com/samcolson4/CV">CV</a> | <a href ="https://www.linkedin.com/in/samcolson/">LinkedIn</a></p>
+  </footer>
+
 </html>
